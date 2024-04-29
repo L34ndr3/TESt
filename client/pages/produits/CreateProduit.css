@@ -1,0 +1,103 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    padding: 20px;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-family: 'Arial', sans-serif;
+    font-size: 36px;
+    color: #333;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: color 0.3s ease-in-out;
+}
+
+h1:hover {
+    color: #ff6347; /* Change color on hover */
+}
+
+.container-button-retour {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.button-green {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.button-green:hover {
+    background-color: #45a049; /* Darken button on hover */
+}
+
+/* Form Styles */
+.Produit-form {
+    width: 80%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+.Produit-form:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow on hover */
+}
+
+.label-Produit {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.line-Produit input[type="text"],
+.line-Produit input[type="number"],
+.line-Produit input[type="file"],
+.Produit-categorie {
+    width: calc(100% - 12px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.Produit-categorie {
+    height: 100px;
+    resize: vertical;
+}
+
+.Produit-submit {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.Produit-submit:hover {
+    background-color: #45a049; /* Darken button on hover */
+}
+
+/* Message for File Upload */
+.errorMessage {
+    color: #ff0000;
+}
+
+.successMessage {
+    color: #008000;
+}

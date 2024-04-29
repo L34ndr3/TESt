@@ -1,0 +1,16 @@
+/* Custom CSS styles */
+body {
+    padding-top: 70px; /* Adjusted padding for the fixed navbar */
+  }
+  
+  .navbar-nav {
+    margin-left: auto;
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  h1 {
+    margin-bottom: 50px;
+  }
